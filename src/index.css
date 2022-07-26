@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+nav {
+  background: lightgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  box-shadow: 2px 2px 4px grey;
+  margin-bottom: 1em;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-size: xx-large;
+  margin-left: 50px;
+}
+
+nav button {
+  margin-right: 50px;
+}
+
+button:hover {
+  background-color: lightslategray;
+}
+
+button,
+button a,
+input {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
+  font-size: x-large;
+}
+
+#submit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.Home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+img {
+  width: 40%;
+}
+
+.Budgets,
+article,
+.New,
+.Show {
+  text-align: center;
+  font-size: x-large;
+}
+
+table {
+  margin-left: 35%;
+}
+
+tbody a {
+  color: rgb(0, 191, 255);
+  padding: 20px;
+}
+
+.showNavigation {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.New form {
+  margin: auto;
+  width: 30%;
+}
+
+input[type],
+textarea {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
