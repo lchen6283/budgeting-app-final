@@ -107,3 +107,16 @@ textarea {
   width: 90%;
   margin: auto;
 }
+
+/* bank total color change*/
+.green {
+  color: green;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}

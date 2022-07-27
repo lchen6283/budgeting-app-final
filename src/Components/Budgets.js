@@ -20,10 +20,22 @@ function Budgets() {
     currency: "USD",
   });
 
+  function checkColor() {
+    if (total > 1000) {
+      return "green";
+    } else if (total >= 0 && total <= 1000) {
+      return "black";
+    } else if (total < 0) {
+      return "red";
+    }
+  }
+
   return (
     <div className="Budgets">
       <section>
-        <h1>Bank Account Total: {dollarFormat.format(total)}</h1>
+        <h1 className={checkColor()}>
+          Bank Account Total: {dollarFormat.format(total)}
+        </h1>
         <hr />
         <table>
           <thead>
