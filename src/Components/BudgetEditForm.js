@@ -44,10 +44,9 @@ function BudgetEditForm() {
         <label htmlFor="date">Date</label>
         <input
           id="date"
-          type="text"
+          type="date"
           required
           value={budget.date}
-          placeholder="date"
           onChange={handleTextChange}
         />
         <label htmlFor="item_name">Name</label>

@@ -24,6 +24,7 @@ function Budgets() {
     <div className="Budgets">
       <section>
         <h1>Bank Account Total: {dollarFormat.format(total)}</h1>
+        <hr />
         <table>
           <thead>
             <tr>

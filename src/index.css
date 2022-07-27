@@ -29,6 +29,12 @@ nav {
   margin-left: 50px;
 }
 
+.header a:hover {
+  background-color: whitesmoke;
+  padding: 10px;
+  transition: 00.2s;
+}
+
 nav button {
   margin-right: 50px;
 }
@@ -60,6 +66,10 @@ input {
 
 img {
   width: 40%;
+}
+
+hr {
+  width: 50%;
 }
 
 .Budgets,
